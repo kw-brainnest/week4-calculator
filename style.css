@@ -1,0 +1,71 @@
+body
+{
+	margin:0;
+}
+header
+{
+	text-align:center;
+	padding:2vw;
+	font-family:century gothic;
+}
+main
+{
+	display:flex;
+	flex-direction:column;
+	justify-contents: center;
+	align-items:center;
+
+}
+face
+{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	border:solid 2px black;
+	border-radius:0.5vw;
+	padding:0.5vw;
+	width:30%;
+}
+keypad
+{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	padding:1vw;
+	width:70%;
+}
+button
+{
+	width:5vw;
+	height:5vw;
+}
+footer
+{
+	font-family:century gothic;
+	text-align:center;
+	padding:2vw;
+}
+p
+{
+	font-family:century gothic;
+}
+
+.display-number
+{
+	background-color:white;
+	text-align:right;
+}
+@media screen and (max-width:600px)
+{
+	face
+	{
+		width:60%;
+	}
+	button
+	{
+		width:10vw;
+		height:10vw;
+	}
+}

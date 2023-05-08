@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<link rel="stylesheet" href="./style.css">
+	<script src="./script.js"></script>
+	<title>calculator</title>
+</head>
+<body onload="DisplayKeys()">
+	<header>calculator</header>
+	<main>
+		<face>
+			<section><input type="text" id="display-number" class="display-number" readonly></section>
+			<section>
+				<input type="text" id="calculation" class="calculation" readonly>
+				<input type="button" id="change" class="change" onclick="Change()" title="change keypad">
+			</section>
+			<keypad id="keypad">
+			</keypad>
+
+		</face>
+
+		<section>
+			<p>Welcome to our calculator</p>
+			<p>This does simple calculations with two numbers ie. '6 / 3' or '2 + 8' etc. clicking '=' will give the rresult of these simple opeations<p>
+			<p>If an operator ('+', '-', '*', '/') is clicked after '=' has been clicked it will use the result of the last calculation as the first number for a new calculation</p>
+			<p> clicking 'C' will clear all calculations
+		</section>
+	<main>
+
+	<footer>calculators r us</footer>
+</body>
+</html>
