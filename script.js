@@ -18,6 +18,8 @@ function DisplayKeys()
 	{
 		let button = document.createElement('button')
 		button.textContent = value
+		button.classList.add('key')
+
 		if (typeof value === "string") 
 		{
 			button.setAttribute('onclick', 'Input(`' + value + '`)')
